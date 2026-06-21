@@ -21,6 +21,7 @@
 const passwords = {
   "ancora": "pages/documento01.html",
   "vigia-13": "pages/documento02.html",
+  "teste": "teste.html",
   // Adicione novas senhas abaixo seguindo o mesmo padrao:
   // "suasenha": "pages/sua-pagina.html",
 };
