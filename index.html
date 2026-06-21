@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="bg-fundo">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0e0c" />
+  <meta name="description" content="Terminal de acesso restrito — Projeto Âncora." />
+  <title>PROJETO ÂNCORA // ACESSO RESTRITO</title>
+
+  <!-- Folha de estilo principal -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!--
+    PAGINA INICIAL
+    --------------------------------------------------------
+    Aqui o jogador digita a senha. A verificacao acontece
+    no arquivo js/auth.js, usando as senhas de js/passwords.js.
+  -->
+  <main class="tela-central fade-in">
+    <!-- Logo / emblema (troque o arquivo em assets/images/) -->
+    <img
+      src="assets/images/logo-ancora.png"
+      alt="Emblema do Projeto Âncora"
+      class="logo"
+    />
+
+    <!-- Titulo com efeito glitch -->
+    <h1 class="titulo glitch" data-texto="PROJETO ÂNCORA">PROJETO ÂNCORA</h1>
+    <p class="subtitulo">Terminal de acesso restrito — Nível confidencial</p>
+
+    <!-- Formulario de acesso -->
+    <form id="form-acesso" class="form-acesso" autocomplete="off">
+      <label for="campo-senha" class="sr-only">Senha de acesso</label>
+      <input
+        id="campo-senha"
+        class="campo-senha"
+        type="password"
+        placeholder="• • • • • • • •"
+        aria-describedby="status"
+        spellcheck="false"
+      />
+      <button type="submit" class="botao">Acessar</button>
+    </form>
+
+    <!-- Mensagem de status (ACESSO LIBERADO / NEGADO) -->
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+  </main>
+
+  <!-- Apenas para leitores de tela: esconde visualmente -->
+  <style>
+    .sr-only {
+      position: absolute; width: 1px; height: 1px;
+      padding: 0; margin: -1px; overflow: hidden;
+      clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+  </style>
+
+  <!-- Scripts: a ordem importa (senhas antes da logica) -->
+  <script src="js/passwords.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/effects.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+  =========================================================
+  MODELO DE PAGINA SECRETA — PROJETO ÂNCORA
+  ---------------------------------------------------------
+  COMO CRIAR UMA NOVA PAGINA:
+  1. Faca uma COPIA deste arquivo dentro da pasta /pages/
+     (ex: documento03.html).
+  2. Troque os textos, imagens e titulos marcados abaixo.
+  3. Abra js/passwords.js e crie uma senha apontando para
+     o nome do novo arquivo. Pronto!
+
+  OBS: como esta pagina esta dentro de /pages/, os caminhos
+  para css, js e imagens comecam com "../" (sobe um nivel).
+  =========================================================
+-->
+<html lang="pt-BR" class="bg-fundo">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0e0c" />
+  <meta name="description" content="Arquivo confidencial — Projeto Âncora." />
+  <title>ARQUIVO // [CODIGO DO DOCUMENTO]</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <!-- Barra superior com codigo do arquivo e botao de voltar -->
+  <header class="barra-topo">
+    <span class="codigo">ARQUIVO Nº [000] // CONFIDENCIAL</span>
+    <a href="../index.html" class="link-voltar">‹ Sair</a>
+  </header>
+
+  <article class="documento fade-in">
+    <!-- CABECALHO DO DOCUMENTO -->
+    <div class="doc-cabecalho">
+      <h1 class="doc-titulo">[TÍTULO DO DOCUMENTO]</h1>
+      <p class="doc-subtitulo" data-typing data-velocidade="30">
+        [Subtítulo: data, local ou classificação do arquivo]
+      </p>
+    </div>
+
+    <!-- SECAO DE TEXTO -->
+    <section class="secao">
+      <span class="secao-rotulo">Relatório</span>
+      <p>
+        [Escreva aqui o texto principal do documento. Voce pode
+        usar <span class="destaque">trechos em destaque</span> e
+        tambem <span class="censurado">informacoes censuradas</span>
+        para criar mais clima de investigacao.]
+      </p>
+      <p>[Continue o texto em quantos paragrafos quiser...]</p>
+    </section>
+
+    <!-- SECAO DE IMAGENS -->
+    <section class="secao">
+      <span class="secao-rotulo">Evidências visuais</span>
+      <div class="galeria">
+        <figure>
+          <img src="../assets/images/evidencia-01.png" alt="Descrição da evidência" />
+          <figcaption>EVID-01 — [legenda da imagem]</figcaption>
+        </figure>
+        <!-- Duplique o <figure> acima para adicionar mais imagens -->
+      </div>
+    </section>
+
+    <!-- SECAO DE DOCUMENTOS / ANEXOS -->
+    <section class="secao">
+      <span class="secao-rotulo">Anexos</span>
+      <a class="anexo" href="../assets/images/documento-exemplo.png" target="_blank" rel="noopener">
+        <span class="icone" aria-hidden="true">▣</span>
+        <span class="info">
+          [Nome do anexo]
+          <small>Clique para abrir — arquivo de imagem</small>
+        </span>
+      </a>
+      <!-- Duplique o <a class="anexo"> acima para mais anexos -->
+    </section>
+
+    <!-- SECAO DE VIDEO (OPCIONAL) -->
+    <!--
+      Para usar um video do YouTube, descomente abaixo e troque o ID:
+      <section class="secao">
+        <span class="secao-rotulo">Transmissão</span>
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/ID_DO_VIDEO"
+                  title="Vídeo confidencial" allowfullscreen></iframe>
+        </div>
+      </section>
+    -->
+
+    <!-- RODAPE -->
+    <footer class="doc-rodape">
+      FIM DO ARQUIVO // PROJETO ÂNCORA // ACESSO REGISTRADO
+    </footer>
+  </article>
+
+  <!--
+    AUDIO OPCIONAL: descomente e aponte para um arquivo em
+    assets/ para ter uma trilha de fundo nesta pagina.
+    Um botao de ligar/desligar som aparece automaticamente.
+
+    <audio id="trilha" loop>
+      <source src="../assets/sua-musica.mp3" type="audio/mpeg" />
+    </audio>
+  -->
+
+  <!-- Efeitos visuais globais (CRT, cursor, typing, audio) -->
+  <script src="../js/effects.js"></script>
+</body>
+</html>

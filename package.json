@@ -1,0 +1,13 @@
+{
+  "name": "projeto-ancora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RPG de mesa em formato ARG - site estatico de investigacao paranormal",
+  "scripts": {
+    "dev": "serve . -l 3000",
+    "start": "serve . -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
