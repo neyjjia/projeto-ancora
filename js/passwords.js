@@ -22,7 +22,7 @@ const passwords = {
   "ancora": "pages/ancora.html",
   "apocalipse": "pages/apocalipse.html",
   "tempestade": "pages/tempestade.html",
-  "caim": "pages/caim.html",
+  "caim": "pages/o homem com pupilas brancas.html",
   "teste": "pages/teste.html",
   // Adicione novas senhas abaixo seguindo o mesmo padrao:
   // "suasenha": "pages/sua-pagina.html",
