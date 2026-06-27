@@ -60,5 +60,26 @@
   <script src="js/passwords.js"></script>
   <script src="js/auth.js"></script>
   <script src="js/effects.js"></script>
+
+    <audio id="trilha" loop>
+      <source src="assets/base.mpeg" type="audio/mpeg" />
+    </audio>
+
+  <script>
+const audio = document.getElementById("ambiente");
+
+function iniciarAudio() {
+    audio.play().catch(() => {});
+    document.removeEventListener("click", iniciarAudio);
+    document.removeEventListener("mousemove", iniciarAudio);
+    document.removeEventListener("keydown", iniciarAudio);
+    document.removeEventListener("touchstart", iniciarAudio);
+}
+
+document.addEventListener("click", iniciarAudio);
+document.addEventListener("mousemove", iniciarAudio);
+document.addEventListener("keydown", iniciarAudio);
+document.addEventListener("touchstart", iniciarAudio);
+</script>
 </body>
 </html>
