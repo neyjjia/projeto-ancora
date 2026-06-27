@@ -265,13 +265,13 @@ body {
 }
 
 .glitch::before {
-  color: var(--cor-alerta);
+  color: #39ff6a;
   animation: glitch-x 3.5s infinite linear alternate;
   clip-path: inset(0 0 60% 0);
 }
 
 .glitch::after {
-  color: #2bd4ff;
+  color: #8effb1;
   animation: glitch-y 2.7s infinite linear alternate;
   clip-path: inset(60% 0 0 0);
 }
