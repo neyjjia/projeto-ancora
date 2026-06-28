@@ -21,7 +21,6 @@
 const passwords = {
   "ancora": "pages/ancora.html",
   "2023": "pages/apocalipse.html",
-  "tempestade": "pages/tempestade.html",
   "caim": "pages/o homem com pupilas brancas.html",
   "adam": "pages/erro404.html",
   "teste": "pages/teste.html",
@@ -38,10 +37,15 @@ const deniedMessages = {
   "theo": "RODA DE NOVO!",
   "verissimo": "OS OLHOS SE FECHARAM",
   "salvatore": "COLECIONADOR DE DEUSES",
-  "william": "QUAL DOS DOIS?",
+  "wiliam": "QUAL DOS DOIS?",
   "dce": "UM SONHO SOBRE DIAS MELHORES... OU NÃO",
   "armando": "NUNCA SUBESTIME UM HOMEM COM UM CACHORRO NO FIM DO MUNDO",
   "yegor": "К чёрту государство!",
+  "bibliotecario": "☜︎🕆︎ ☝︎⚐︎💧︎❄︎⚐︎ 👎︎☜︎ ☜︎☠︎✋︎☝︎💣︎✌︎💧︎",
+  "Apocalipse": "NÃO SERIA TÃO ÓBVIO",
+  "ele": "NÃO NOS DEIXOU SE QUER SEU NOME",
+  "ludo": "NÃO :)"
+   
 };
   // Adicione novas senhas abaixo seguindo o mesmo padrao:
   // "suasenha": "pages/sua-pagina.html",
