@@ -32,6 +32,15 @@ const deniedMessages = {
   "ordem": "LUZ E ...",
   "lilith": "É TUDO CULPA DELA",
   "ivo": "BRINCANDO COM O TEMPO DE NOVO?"
+  "jhonatan": "O REFLEXO NA TELA",
+  "marcos": "O QUE ELA IRIA PENSAR DISSO?",
+  "alan": "TA NA HORA DO SHOW PORRA!!",
+  "theo": "RODA DE NOVO!",
+  "verissimo": "OS OLHOS SE FECHARAM",
+  "salvatore": "COLECIONADOR DE DEUSES",
+  "william": "QUAL DOS DOIS?",
+  "dce": "UM SONHO SOBRE DIAS MELHORES... OU NÃO",
+  "armando": "NUNCA SUBESTIME UM HOMEM COM UM CACHORRO NO FIM DO MUNDO",
 };
   // Adicione novas senhas abaixo seguindo o mesmo padrao:
   // "suasenha": "pages/sua-pagina.html",
