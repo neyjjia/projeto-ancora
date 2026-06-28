@@ -28,12 +28,20 @@ const passwords = {
 };
 
 const deniedMessages = {
-  "merus": "CREDENCIAL REVOGADA",
-  "hermes": "FUNCIONÁRIO NÃO ENCONTRADO",
-  "caim": "O PACIENTE NÃO POSSUI MAIS REGISTROS",
-  "observador": "VOCÊ NÃO DEVERIA SABER ESSE NOME",
-  "echo": "...VOCÊ CONSEGUE ME OUVIR?",
-  "lucas": "USUÁRIO REMOVIDO DO SISTEMA"
+  "lilith": "É TUDO CULPA DELA",
+  "ivo": "Brincando com o tempo de novo?",
+  "yegor": "К чёрту государство!"
+  "ordem": "Luz e ...",
+  "dce": "Um sonho sobre dias melhores... ou não",
+  "armando": "Nunca subestime um homem com um cachorro no fim do mundo"
+  "verissimo": "Os olhos se fecharam",
+  "salvatore": "Colecionador de deuses",
+  "william": "Qual dos dois?",
+  "adao": "apenas um homem",
+  "jhonatan": "O reflexo na tela",
+  "marcos": "O que ela iria pensar disso?",
+  "alan": "TA NA HORA DO SHOW PORRA!!",
+  "theo": "RODA DE NOVO!",
 };
   // Adicione novas senhas abaixo seguindo o mesmo padrao:
   // "suasenha": "pages/sua-pagina.html",
