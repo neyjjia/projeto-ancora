@@ -28,12 +28,10 @@ const passwords = {
 };
 
 const deniedMessages = {
-  "lilith": "É TUDO CULPA DELA",
-  "ivo": "Brincando com o tempo de novo?",
-  "ordem": "Luz e ...",
-  "verissimo": "Os olhos se fecharam",
-  "salvatore": "Colecionador de deuses",
-  "william": "Qual dos dois?",
+  "merus": "CREDENCIAL REVOGADA",
+  "hermes": "FUNCIONÁRIO NÃO ENCONTRADO",
+  "echo": "...VOCÊ CONSEGUE ME OUVIR?",
+  "fim": "NÃO EXISTE UM FIM."
 };
   // Adicione novas senhas abaixo seguindo o mesmo padrao:
   // "suasenha": "pages/sua-pagina.html",
