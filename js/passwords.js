@@ -31,7 +31,7 @@ const deniedMessages = {
   "adao": "APENAS UM HOMEM",
   "ordem": "LUZ E ...",
   "lilith": "É TUDO CULPA DELA",
-  "ivo": "BRINCANDO COM O TEMPO DE NOVO?"
+  "ivo": "BRINCANDO COM O TEMPO DE NOVO?",
   "jhonatan": "O REFLEXO NA TELA",
   "marcos": "O QUE ELA IRIA PENSAR DISSO?",
   "alan": "TA NA HORA DO SHOW PORRA!!",
