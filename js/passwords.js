@@ -28,14 +28,17 @@ const passwords = {
 };
 
 const deniedMessages = {
-  "adao": "APENAS UM HOMEM",
+  "adao": "QUANDO UM HOMEM SE TORNA UM MONSTRO?",
   "ordem": "LUZ E ...",
   "lilith": "É TUDO CULPA DELA",
   "ivo": "BRINCANDO COM O TEMPO DE NOVO?",
   "jhonatan": "O REFLEXO NA TELA",
   "marcos": "O QUE ELA IRIA PENSAR DISSO?",
   "alan": "TA NA HORA DO SHOW PORRA!!",
-  "theo": "RODA DE NOVO!",
+  "theo": {
+        text: "RODA DE NOVO!",
+        color: "#482FFA"
+    },
   "verissimo": "OS OLHOS SE FECHARAM",
   "salvatore": "COLECIONADOR DE DEUSES",
   "wiliam": "QUAL DOS DOIS?",
